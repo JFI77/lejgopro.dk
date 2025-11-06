@@ -4,6 +4,6 @@ export default defineEventHandler(async (event) => {
     message: 'API is working',
     timestamp: new Date().toISOString(),
     env: process.env.NODE_ENV,
-    netlify: process.env.NETLIFY ? 'yes' : 'no'
+    vercel: process.env.VERCEL ? 'yes' : 'no'
   }
 })
