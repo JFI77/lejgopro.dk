@@ -15,6 +15,7 @@
     </div>
   </div>
 </section>
+<Footer />
 </template>
 
 <script setup>
@@ -24,7 +25,7 @@ const items = ref([
   {
     label: 'Hvad er den korteste lejeperiode?',
     icon: 'i-lucide-calendar',
-    content: 'En weekend'
+    content: '3 dage'
   },
   {
     label: 'Hvordan og hvornår skal man betale?',
@@ -32,14 +33,14 @@ const items = ref([
     content: 'Betaling sker online via vores sikre betalingsløsning under checkout processen. Du kan betale med kort (Visa, Mastercard, osv.). Beløbet trækkes med det samme når din booking bekræftes, og du modtager en kvittering på email.'
   },
   {
-    label: 'Hvorfor udlejer i kun GoPro Hero 10?',
+    label: 'Kan man hente kameraet i stedet for at få det leveret?',
     icon: 'i-lucide-star',
-    content: 'Vi udlejer kun det bedste produkt på markedet. Sådan sikrer vi os, at alle får den bedste oplevelse med de bedste optagelser.'
+    content: 'Ja, men kun i København. Kontakt os for at aftale tid og sted for afhentning.'
   },
   {
     label: 'Hvor længe holder et GoPro strøm?',
     icon: 'i-lucide-battery-charging',
-    content: 'Et GoPro kan optage i cirka 2-3 timer, før batteriet skal oplades eller udskiftes. Du kan tilføje et ekstra batteri for blot 49,- kr.'
+    content: 'Et GoPro kan optage i cirka 2-3 timer, før batteriet skal oplades eller udskiftes. Du kan tilføje et ekstra batteri for blot 50,- kr.'
   },
   {
     label: 'Hvor lang tid tager det at oplade et GoPro?',
@@ -49,7 +50,7 @@ const items = ref([
   {
     label: 'Er kameraet forsikret?',
     icon: 'i-lucide-shield',
-    content: 'Det er på nuværende tidspunkt ikke muligt at tilkøbe forsikring hos os. Du er i de fleste tilfælde dækket igennem din egen indboforsikring – vi opfordrer til at snakke med dit forsikringsselskab inden du lejer. Hvis kameraet går i stykker, hæfter du for hele værdien til LejGoPro I/S.'
+    content: 'Det er på nuværende tidspunkt ikke muligt at tilkøbe forsikring hos os. Du er i de fleste tilfælde dækket igennem din egen indboforsikring – vi opfordrer til at snakke med dit forsikringsselskab inden du lejer. Hvis kameraet går i stykker, hæfter du for hele værdien til LejGoPro.'
   },
   {
     label: 'Kan jeg få kameraet leveret direkte til døren?',
